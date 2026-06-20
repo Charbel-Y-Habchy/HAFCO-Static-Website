@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAFCO | Premium Power Solutions</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+    <!-- STATIC TOP NAV — Apple-style -->
+    <header class="site-header" id="site-header">
+        <a href="#hero" class="header-brand">
+            <span class="header-logo">HAF<span>CO</span></span>
+        </a>
+
+        <!-- Desktop nav: categories injected from JSON -->
+        <nav class="header-nav" id="header-nav">
+            <!-- Categories injected by JS -->
+            <div class="header-nav-divider"></div>
+            <a href="#contact" class="header-link header-contact-btn">Contact Us</a>
+        </nav>
+
+        <!-- Mobile hamburger -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <!-- Mobile menu drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-inner">
+            <div class="mobile-menu-header">
+                <span class="mobile-menu-logo">HAF<span>CO</span></span>
+                <button class="mobile-menu-close" id="mobile-menu-close">✕</button>
+            </div>
+            <nav class="mobile-menu-nav" id="mobile-menu-nav">
+                <!-- Injected from JSON -->
+            </nav>
+            <a href="#contact" class="pill primary mobile-contact-pill" id="mobile-contact-link">Contact Us</a>
+        </div>
+    </div>
+    <div class="mobile-menu-backdrop" id="mobile-menu-backdrop"></div>
+
+    <!-- =====================================================
+         HERO — Simplified, atmosphere + "Why Choose HAFCO"
+    ====================================================== -->
+    <div class="hero-environment" id="hero">
+
+        <div class="hero-glow hero-glow--center"></div>
+        <div class="hero-glow hero-glow--left"></div>
+        <div class="hero-glow hero-glow--right"></div>
+        <div class="hero-grid-overlay"></div>
+        <canvas id="waveform-canvas"></canvas>
+
+        <!-- IDENTITY BLOCK — centered, minimal -->
+        <div class="hero-identity">
+            <div class="hero-identity-inner reveal delay-1">
+                <h1 class="hero-title">HAF<span class="title-accent">CO</span></h1>
+                <p class="hero-subtitle">Premium Power Solutions</p>
+            </div>
+        </div>
+
+        <!-- WHY CHOOSE HAFCO — carousel of value pillars -->
+        <div class="why-hafco-section reveal">
+            <p class="why-hafco-label">Why Choose HAFCO</p>
+            <div class="why-carousel-wrapper">
+                <button class="why-arrow why-arrow--prev" id="why-prev">&#8592;</button>
+
+                <div class="why-carousel-track" id="why-track">
+
+                    <div class="why-card">
+                        <div class="why-card-image">
+                            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&q=80"
+                                alt="In-House Manufacturing">
+                        </div>
+                        <div class="why-card-content">
+                            <h4>In-House Manufacturing</h4>
+                            <p>Wound, assembled, and tested under one roof. Every tolerance is ours to own — no
+                                subcontractors, no surprises.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-card-image">
+                            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&q=80"
+                                alt="Grid-Hardened Design">
+                        </div>
+                        <div class="why-card-content">
+                            <h4>Grid-Hardened Design</h4>
+                            <p>Built for Lebanon's grid as it actually is. Wide voltage swings, extended outages,
+                                thermal stress — rated for all of it, continuously.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-card-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80"
+                                alt="Continuous-Duty Rated">
+                        </div>
+                        <div class="why-card-content">
+                            <h4>Continuous-Duty Rated</h4>
+                            <p>Specified for real operating conditions, not peak figures. Every unit is validated to
+                                perform under sustained load, not just burst.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-card-image">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80"
+                                alt="Levant-Calibrated">
+                        </div>
+                        <div class="why-card-content">
+                            <h4>Levant-Calibrated</h4>
+                            <p>Fifteen years tuning products to the voltage profiles, climate extremes, and load
+                                realities of Lebanon and the wider region.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-card-image">
+                            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&q=80"
+                                alt="Full Accountability">
+                        </div>
+                        <div class="why-card-content">
+                            <h4>Full Accountability</h4>
+                            <p>Direct after-sales support from the team that built your unit. One contact, full
+                                responsibility, no finger-pointing.</p>
+                        </div>
+                    </div>
+
+                    <div class="why-card">
+                        <div class="why-card-image">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80"
+                                alt="Reliability First">
+                        </div>
+                        <div class="why-card-content">
+                            <h4>Reliability First</h4>
+                            <p>Every product carries overload, overvoltage, and thermal protection as standard — because
+                                uptime is not optional for our clients.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="why-arrow why-arrow--next" id="why-next">&#8594;</button>
+            </div>
+
+        </div>
+
+        <div class="hero-floor-rule"></div>
+    </div>
+
+    <!-- LIGHT FLOATING SHEET -->
+    <div class="light-environment">
+
+        <section id="catalog" class="container">
+            <div class="reveal section-header">
+                <h2>The Standard for Power.</h2>
+                <p>Each built for a challenge, all built to last.</p>
+            </div>
+            <div class="product-shelf-wrapper">
+                <div id="catalog-container" class="product-shelf-track"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="container contact-section">
+            <div class="reveal section-header">
+                <h2>Get in Touch.</h2>
+                <p>For quotes, technical specifications, or installation enquiries — reach us directly.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <div class="glass-box contact-form-card reveal">
+                    <h3 class="contact-card-title">Send a Message</h3>
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" class="form-input" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email or Phone</label>
+                        <input type="text" class="form-input" placeholder="How should we reach you?">
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-input form-textarea"
+                            placeholder="Describe your project or question..."></textarea>
+                    </div>
+                    <button class="pill primary form-submit">Send Enquiry</button>
+                </div>
+
+                <div class="contact-right reveal delay-1">
+
+                    <div class="glass-box contact-info-card">
+                        <h3 class="contact-card-title">Reach Us</h3>
+                        <div class="contact-info-row">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <div class="contact-info-label">Phone</div>
+                                <div class="contact-info-value">+961 81 549 621</div>
+                            </div>
+                        </div>
+                        <div class="contact-info-row">
+                            <span class="contact-icon">✉️</span>
+                            <div>
+                                <div class="contact-info-label">Email</div>
+                                <div class="contact-info-value">yaserhabchy@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="contact-info-row">
+                            <span class="contact-icon">🕐</span>
+                            <div>
+                                <div class="contact-info-label">Working Hours</div>
+                                <div class="contact-info-value">Mon – Fri · 8:00 AM – 4:00 PM</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-box find-us-card">
+                        <h3 class="contact-card-title">Find Us</h3>
+                        <div class="map-placeholder">
+                            <div class="map-placeholder-inner">
+                                <span class="map-pin">📍</span>
+                                <p>North Lebanon<br><span>https://maps.app.goo.gl/kuwHRFgYA9S2uEJ26</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">HAFCO</span>
+                    <span class="footer-tagline">Premium Power Solutions</span>
+                </div>
+                <div class="footer-links" id="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#catalog">Products</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copy">© 2026 HAFCO. All rights reserved.</div>
+            </div>
+        </footer>
+
+    </div>
+
+    <div id="catalog-overlay" class="catalog-overlay">
+        <div class="glass-box expanded-card" id="expanded-card"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

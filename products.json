@@ -1,0 +1,319 @@
+{
+    "categories": [
+        {
+            "id": "relay-avr",
+            "name": "Relay-type AVR",
+            "navName": "Relay Stabilizer",
+            "description": "High-speed discrete voltage correction for everyday power loads.",
+            "image": "https://5.imimg.com/data5/SELLER/Default/2025/8/536123136/KP/WC/QV/10636468/5kva-single-phase-servo-voltage-stabilizer-1000x1000.png",
+            "items": [
+                {
+                    "name": "HF-AVR-R500",
+                    "description": "500VA relay-type AVR ideal for home electronics and small appliances.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "500 VA",
+                        "Input Range": "160 – 250 V",
+                        "Output Voltage": "220 V ±5%",
+                        "Phases": "Single-Phase",
+                        "Response Time": "< 0.5 Seconds",
+                        "Protection": "Overvoltage / Undervoltage"
+                    }
+                },
+                {
+                    "name": "HF-AVR-R1000",
+                    "description": "1000VA relay-type AVR with surge suppression and digital display.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "1000 VA",
+                        "Input Range": "155 – 255 V",
+                        "Output Voltage": "220 V ±5%",
+                        "Phases": "Single-Phase",
+                        "Response Time": "< 0.5 Seconds",
+                        "Protection": "Surge / Spike / OVP"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "servo-avr",
+            "name": "Servo Motor type AVR",
+            "navName": "Servo Stabilizer",
+            "description": "Continuous voltage correction for sensitive industrial and commercial loads.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-AVR-SM1000",
+                    "description": "1000VA servo motor AVR with wide input range and high accuracy.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "1000 VA",
+                        "Input Range": "140 – 260 V",
+                        "Output Voltage": "220 V ±2%",
+                        "Phases": "Single-Phase",
+                        "Response Time": "< 1.5 Seconds",
+                        "Protection": "Overvoltage / Undervoltage"
+                    }
+                },
+                {
+                    "name": "HF-AVR-SM3000",
+                    "description": "3000VA heavy-duty servo motor regulator for industrial panels.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "3000 VA",
+                        "Input Range": "140 – 260 V",
+                        "Output Voltage": "220 V ±2%",
+                        "Phases": "Single-Phase",
+                        "Response Time": "< 2.0 Seconds",
+                        "Protection": "OVP / UVP / Thermal"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "floating-charger",
+            "name": "Floating Battery Charger",
+            "navName": "Floating Charger",
+            "description": "Continuous trickle-charge units that maintain battery health and prevent overcharging in standby and backup power systems.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-CHG-F12",
+                    "description": "12V floating charger with automatic float/boost switching.",
+                    "image": "",
+                    "specs": {
+                        "Output Voltage": "12 V DC",
+                        "Float Charge": "13.6 V DC",
+                        "Boost Charge": "14.4 V DC",
+                        "Circuit Control": "Automatic Switching",
+                        "Efficiency": "> 88%",
+                        "Protection": "Short-Circuit / Overcharge"
+                    }
+                },
+                {
+                    "name": "HF-CHG-F24",
+                    "description": "24V dual-bank floating charger for UPS standby systems.",
+                    "image": "",
+                    "specs": {
+                        "Output Voltage": "24 V DC",
+                        "Float Charge": "27.2 V DC",
+                        "Boost Charge": "28.8 V DC",
+                        "Output Banks": "Dual-Bank Isolated",
+                        "Target Use": "UPS Standby Systems",
+                        "Protection": "Reverse Polarity / Thermal"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "softstart-charger",
+            "name": "Soft Start Battery Charger",
+            "navName": "Soft-Start Charger",
+            "description": "Intelligent soft-start charging technology, extending battery service life.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-CHG-SS12",
+                    "description": "12V soft start charger with staged charging profile for deep-cycle batteries.",
+                    "image": "",
+                    "specs": {
+                        "Output Voltage": "12 V DC",
+                        "Charge Stages": "3-Stage (Bulk / Absorption / Float)",
+                        "Max Charge Current": "10 A",
+                        "Soft Start": "Yes",
+                        "Efficiency": "> 85%",
+                        "Protection": "Short-Circuit / Over-Temperature"
+                    }
+                },
+                {
+                    "name": "HF-CHG-SS24",
+                    "description": "24V soft start charger designed for industrial battery banks.",
+                    "image": "",
+                    "specs": {
+                        "Output Voltage": "24 V DC",
+                        "Charge Stages": "3-Stage (Bulk / Absorption / Float)",
+                        "Max Charge Current": "20 A",
+                        "Soft Start": "Yes",
+                        "Efficiency": "> 87%",
+                        "Protection": "Reverse Polarity / OVP / Thermal"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "automatic-charger",
+            "name": "Automatic Battery Charger",
+            "navName": "Auto Charger",
+            "description": "Smart, fully automatic battery chargers that independently detect and apply the optimal charging cycle without manual intervention.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-CHG-AUTO12",
+                    "description": "12V smart automatic charger with microprocessor control.",
+                    "image": "",
+                    "specs": {
+                        "Output Voltage": "12 V DC",
+                        "Charge Cycle": "Fully Automatic",
+                        "Max Charge Current": "15 A",
+                        "Detection": "Auto Voltage & Polarity",
+                        "Efficiency": "> 90%",
+                        "Protection": "Short-Circuit / Reverse Polarity"
+                    }
+                },
+                {
+                    "name": "HF-CHG-AUTO24",
+                    "description": "24V automatic charger suitable for automotive and marine applications.",
+                    "image": "",
+                    "specs": {
+                        "Output Voltage": "24 V DC",
+                        "Charge Cycle": "Fully Automatic",
+                        "Max Charge Current": "25 A",
+                        "Detection": "Auto Voltage & Polarity",
+                        "Efficiency": "> 92%",
+                        "Protection": "Overcharge / Thermal / Reverse Polarity"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ups",
+            "name": "Online Line Interactive UPS",
+            "navName": "UPS",
+            "description": "Double-conversion online UPS systems providing zero transfer time and clean, conditioned power for critical equipment.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-UPS-LI1K",
+                    "description": "1kVA line interactive UPS with AVR and pure sine wave output.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "1000 VA / 700 W",
+                        "Input Voltage": "220 V AC ±25%",
+                        "Output Voltage": "220 V AC ±5%",
+                        "Waveform": "Pure Sine Wave",
+                        "Transfer Time": "< 6 ms",
+                        "Battery": "12 V / 7 Ah Sealed Lead-Acid"
+                    }
+                },
+                {
+                    "name": "HF-UPS-LI3K",
+                    "description": "3kVA online line interactive UPS for servers and network equipment.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "3000 VA / 2100 W",
+                        "Input Voltage": "220 V AC ±30%",
+                        "Output Voltage": "220 V AC ±2%",
+                        "Waveform": "Pure Sine Wave",
+                        "Transfer Time": "< 4 ms",
+                        "Battery": "12 V / 17 Ah x2 Sealed Lead-Acid"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "ups-pure-sine-wave",
+            "name": "UPS Pure Sine Wave",
+            "navName": "Pure Sine UPS",
+            "description": "Uninterruptible power supplies providing clean, exact pure sine wave output designed specifically for highly sensitive electronics and motorized loads.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-UPS-PSW1000",
+                    "description": "1000VA pure sine wave UPS ideal for home theater systems and critical medical equipment.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "1000 VA / 800 W",
+                        "Input Voltage": "220 V AC ±25%",
+                        "Output Voltage": "220 V AC ±5%",
+                        "Waveform": "Pure Sine Wave",
+                        "Transfer Time": "< 8 ms",
+                        "Battery": "12 V / 9 Ah Sealed Lead-Acid"
+                    }
+                },
+                {
+                    "name": "HF-UPS-PSW2000",
+                    "description": "2000VA pure sine wave UPS built for high-end workstations and small servers.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "2000 VA / 1600 W",
+                        "Input Voltage": "220 V AC ±25%",
+                        "Output Voltage": "220 V AC ±3%",
+                        "Waveform": "Pure Sine Wave",
+                        "Transfer Time": "< 8 ms",
+                        "Battery": "12 V / 9 Ah x2 Sealed Lead-Acid"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "transformer",
+            "name": "Power Transformer",
+            "navName": "Transformers",
+            "description": "Precision-engineered Isolation and Automatic transformers built for reliability under heavy continuous loads.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-TR-MP5",
+                    "description": "5kVA monophase isolation transformer with pure copper windings.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "5 kVA",
+                        "Winding Material": "Pure Copper",
+                        "Primary Voltage": "220 V / 240 V",
+                        "Secondary Voltage": "110 V / 220 V",
+                        "Insulation Class": "Class H (180°C)",
+                        "Cooling System": "Dry Air Natural"
+                    }
+                },
+                {
+                    "name": "HF-TR-TP50",
+                    "description": "50kVA oil-cooled triphase transformer for factory distribution panels.",
+                    "image": "",
+                    "specs": {
+                        "Capacity": "50 kVA",
+                        "Winding Material": "Electrolytic Copper",
+                        "Primary Voltage": "11 kV",
+                        "Secondary Voltage": "400 V / 230 V",
+                        "Cooling System": "Oil-Cooled ONAN",
+                        "Vector Group": "Dyn11"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "solar-inverter",
+            "name": "Solar Inverter",
+            "navName": "Solar Inverters",
+            "description": "High-efficiency solar inverters converting DC photovoltaic energy into clean AC power for on-grid and off-grid installations.",
+            "image": "",
+            "items": [
+                {
+                    "name": "HF-SOL-1K",
+                    "description": "1kW pure sine wave solar inverter with MPPT charge controller.",
+                    "image": "",
+                    "specs": {
+                        "Rated Power": "1000 W",
+                        "PV Input Voltage": "12 – 48 V DC",
+                        "AC Output": "220 V ±3% / 50 Hz",
+                        "MPPT Efficiency": "> 99%",
+                        "Waveform": "Pure Sine Wave",
+                        "Protection": "OVP / OCP / Short-Circuit / Reverse Polarity"
+                    }
+                },
+                {
+                    "name": "HF-SOL-5K",
+                    "description": "5kW three-phase solar inverter for commercial rooftop and industrial PV systems.",
+                    "image": "",
+                    "specs": {
+                        "Rated Power": "5000 W",
+                        "PV Input Voltage": "250 – 800 V DC",
+                        "AC Output": "380 V / 50 Hz Three-Phase",
+                        "MPPT Efficiency": "> 99.5%",
+                        "Waveform": "Pure Sine Wave",
+                        "Protection": "Anti-Islanding / OVP / OCP / Ground Fault"
+                    }
+                }
+            ]
+        }
+    ]
+}

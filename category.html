@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAFCO | System Specifications</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+
+
+    <header class="site-header" id="site-header">
+        <a href="#hero" class="header-brand">
+            <span class="header-logo">HAF<span>CO</span></span>
+        </a>
+
+        <!-- Desktop nav: categories injected from JSON -->
+        <nav class="header-nav" id="header-nav">
+            <!-- Categories injected by JS -->
+            <div class="header-nav-divider"></div>
+            <a href="#contact" class="header-link header-contact-btn">Contact Us</a>
+        </nav>
+
+        <!-- Mobile hamburger -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Open menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <!-- Mobile menu drawer -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-inner">
+            <div class="mobile-menu-header">
+                <span class="mobile-menu-logo">HAF<span>CO</span></span>
+                <button class="mobile-menu-close" id="mobile-menu-close">✕</button>
+            </div>
+            <nav class="mobile-menu-nav" id="mobile-menu-nav">
+                <!-- Injected from JSON -->
+            </nav>
+            <a href="#contact" class="pill primary mobile-contact-pill" id="mobile-contact-link">Contact Us</a>
+        </div>
+    </div>
+    <div class="mobile-menu-backdrop" id="mobile-menu-backdrop"></div>
+
+    <!-- DYNAMIC CATEGORY HERO (DARK ENVIRONMENT) -->
+    <div class="hero-environment category-hero-height">
+        <div class="hero-glow hero-glow--center"></div>
+        <div class="hero-grid-overlay"></div>
+        <canvas id="waveform-canvas"></canvas>
+
+        <div class="category-hero-content">
+            <div class="reveal hero-eyebrow">
+                <span class="eyebrow-dot"></span>
+                Hardware Configurations
+            </div>
+            <h1 id="dynamic-category-title" class="reveal delay-1 category-title">Loading...</h1>
+            <p id="dynamic-category-description" class="reveal delay-2 category-desc">Fetching technical parameters from
+                documentation array.</p>
+        </div>
+    </div>
+
+    <!-- MAIN PRODUCT LISTING ARCHITECTURE (LIGHT ENVIRONMENT) -->
+    <div class="light-environment">
+        <section class="container">
+            <div class="config-layout">
+
+                <!-- SPECIFICATION ENGINE ROW DISPLAY -->
+                <div class="products-list-column" id="dynamic-products-container" style="width: 100%;">
+                    <!-- Product arrays dynamically processed here -->
+                </div>
+
+            </div>
+        </section>
+
+        <!-- STATIC REUSED SITE FOOTER -->
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">HAFCO</span>
+                    <span class="footer-tagline">Premium Power Solutions</span>
+                </div>
+                <div class="footer-links">
+                    <a href="test.html#about">About</a>
+                    <a href="test.html#catalog">Products</a>
+                    <a href="test.html#contact">Contact</a>
+                </div>
+                <div class="footer-copy">© 2026 HAFCO. All rights reserved.</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
